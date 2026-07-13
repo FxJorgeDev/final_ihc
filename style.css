@@ -1,0 +1,58 @@
+body
+{
+    background-color: white;
+
+}
+.navbar
+{
+    background-color: red;
+    display: flex;
+    text-align: center;
+}
+.contenido
+{
+    display: flex;
+    justify-content: space-between;
+}
+.opciones
+{
+    list-style: none;
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 5;
+
+}
+.opciones a{
+    list-style: none;
+    color: black;
+    gap: 5;
+    padding: auto;
+    justify-content: space-between;
+}
+.brand
+{
+    width: auto;
+   
+}
+.pie{
+    background-color: rgb(252, 66, 66);
+    text-align: center;
+}
+.register
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.campos
+{
+    display: flex;
+}
+button:hover
+{
+    background-color: yellow;
+}
